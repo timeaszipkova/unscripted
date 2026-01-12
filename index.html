@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Un:]Scripted | Natural connection. No script.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-bg': '#F6F2EC',
+                        'brand-grey': '#D9D2C9',
+                        'brand-stone': '#B9B2AA',
+                        'brand-charcoal': '#1E1E1E',
+                        'brand-black': '#0F0F10',
+                        'brand-olive': '#6F7563',
+                        'brand-clay': '#B88A7A',
+                        'brand-blue': '#6B7C8A',
+                        'brand-logo': '#6b2a3a',
+                    },
+                    fontFamily: {
+                        'playfair': ['"Playfair Display"', 'serif'],
+                        'source': ['"Source Sans 3"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #F6F2EC;
+            color: #0F0F10;
+            font-family: 'Source Sans 3', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .font-playfair-italic {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            color: #1E1E1E;
+        }
+        .divider {
+            height: 1px;
+            background-color: #B9B2AA;
+            width: 100%;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
